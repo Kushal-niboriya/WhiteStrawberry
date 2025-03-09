@@ -1,0 +1,316 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Literary Haven</title>
+    <link rel="stylesheet" href="index.css">
+
+
+</head>
+<body>
+    <!-- Header Section -->
+    <header>
+        <div class="container header-container">
+            <div class="logo">Literary<span>Haven</span></div>
+            
+            
+            <nav class="nav-menu">
+                <a href="#" class="active">Home</a>
+                <a href="#">Fiction</a>
+                <a href="#">Non-Fiction</a>
+                <a href="#">Poetry</a>
+                <a href="#">Classics</a>
+            </nav>
+
+            <div class="search-bar">
+                <input type="text" placeholder="Search for books, authors, genres...">
+                <button>🔍</button>
+            </div>
+            
+            <div class="user-actions">
+                <a href="#">Login</a>
+                <button>Sign Up</button>
+            </div>
+        </div>
+    </header>
+
+    <!-- Main Content -->
+    <main class="container">
+        <!-- Banner Section -->
+        <div class="banner">
+            <img src="The-Great-Gatsby.jpg" alt="Featured Book">
+            <div class="banner-overlay">
+                <h2 class="banner-title">The Great Gatsby</h2>
+                <p class="banner-author">by F. Scott Fitzgerald</p>
+                <p class="banner-description">Explore the decadence of the Jazz Age in this timeless classic that captures the essence of the American Dream through the eyes of Nick Carraway, as he witnesses the mysterious millionaire Jay Gatsby's pursuit of the elusive Daisy Buchanan.</p>
+                <button class="banner-button">Read Now</button>
+            </div>
+        </div>
+
+        <!-- Categories Section -->
+        <section>
+            <div class="section-title">
+                <h2>Explore Literary Worlds</h2>
+            </div>
+            
+            <div class="categories">
+                <!-- Category 1 -->
+                <div class="category-card">
+                    <div class="category-image">
+                        <img src="The-Great-Gatsby.jpg" alt="Fiction">
+                    </div>
+                    <div class="category-info">
+                        <h3 class="category-name">Fiction</h3>
+                        <p class="category-description">Dive into imaginative worlds and captivating stories.</p>
+                        <a href="#" class="category-link">Explore Fiction →</a>
+                    </div>
+                </div>
+                
+                <!-- Category 2 -->
+                <div class="category-card">
+                    <div class="category-image">
+                        <img src="Anne-frank.jpeg" alt="Non-Fiction">
+                    </div>
+                    <div class="category-info">
+                        <h3 class="category-name">Non-Fiction</h3>
+                        <p class="category-description">Discover facts, histories, and real-world wisdom.</p>
+                        <a href="#" class="category-link">Explore Non-Fiction →</a>
+                    </div>
+                </div>
+                
+                <!-- Category 3 -->
+                <div class="category-card">
+                    <div class="category-image">
+                        <img src="shakeshpeare.jpeg" alt="Poetry">
+                    </div>
+                    <div class="category-info">
+                        <h3 class="category-name">Poetry</h3>
+                        <p class="category-description">Experience emotions through carefully crafted verses.</p>
+                        <a href="#" class="category-link">Explore Poetry →</a>
+                    </div>
+                </div>
+                
+                <!-- Category 4 -->
+                <div class="category-card">
+                    <div class="category-image">
+                        <img src="hamlet.jpg" alt="Classics">
+                    </div>
+                    <div class="category-info">
+                        <h3 class="category-name">Classics</h3>
+                        <p class="category-description">Revisit timeless works that defined literary history.</p>
+                        <a href="#" class="category-link">Explore Classics →</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Quote Section -->
+        <section class="quotes-section">
+
+            <div class="container">
+
+                <div class="quote-card">
+                    <p class="quote-text">We read to know we're not alone.</p>
+                    <p class="quote-author">William Nicholson</p>
+                    <p class="quote-book">Shadowlands</p>
+                </div>
+            </div>
+        </section>
+
+        <!-- Featured Books Section -->
+        <section>
+            <div class="section-title">
+                <h2>Featured Books</h2>
+                <a href="#">View All</a>
+            </div>
+            
+            <div class="tab-container">
+                <div class="tabs">
+                    <div class="tab active">All</div>
+                    <div class="tab">Fiction</div>
+                    <div class="tab">Non-Fiction</div>
+                    <div class="tab">Poetry</div>
+                    <div class="tab">Classics</div>
+                    <div class="tab">Biography</div>
+                </div>
+            </div>
+            
+            <div class="books-grid">
+                <!-- Book Card 1 -->
+                <div class="book-card">
+                    <div class="book-cover">
+                        <img src="/api/placeholder/200/280" alt="Book Cover">
+                        <div class="featured-badge">FEATURED</div>
+                    </div>
+                    <div class="book-info">
+                        <h3 class="book-title">To Kill a Mockingbird</h3>
+                        <p class="book-author">Harper Lee</p>
+                        <div class="book-meta">
+                            <span>Fiction</span>
+                            <span>Classic</span>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- Book Card 2 -->
+                <div class="book-card">
+                    <div class="book-cover">
+                        <img src="/api/placeholder/200/280" alt="Book Cover">
+                    </div>
+                    <div class="book-info">
+                        <h3 class="book-title">1984</h3>
+                        <p class="book-author">George Orwell</p>
+                        <div class="book-meta">
+                            <span>Dystopian</span>
+                            <span>Classic</span>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- Book Card 3 -->
+                <div class="book-card">
+                    <div class="book-cover">
+                        <img src="/api/placeholder/200/280" alt="Book Cover">
+                    </div>
+                    <div class="book-info">
+                        <h3 class="book-title">Pride and Prejudice</h3>
+                        <p class="book-author">Jane Austen</p>
+                        <div class="book-meta">
+                            <span>Romance</span>
+                            <span>Classic</span>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- Book Card 4 -->
+                <div class="book-card">
+                    <div class="book-cover">
+                        <img src="/api/placeholder/200/280" alt="Book Cover">
+                        <div class="featured-badge">FEATURED</div>
+                    </div>
+                    <div class="book-info">
+                        <h3 class="book-title">Becoming</h3>
+                        <p class="book-author">Michelle Obama</p>
+                        <div class="book-meta">
+                            <span>Biography</span>
+                            <span>Memoir</span>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- Book Card 5 -->
+                <div class="book-card">
+                    <div class="book-cover">
+                        <img src="/api/placeholder/200/280" alt="Book Cover">
+                    </div>
+                    <div class="book-info">
+                        <h3 class="book-title">The Road Not Taken</h3>
+                        <p class="book-author">Robert Frost</p>
+                        <div class="book-meta">
+                            <span>Poetry</span>
+                            <span>Classic</span>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- Book Card 6 -->
+                <div class="book-card">
+                    <div class="book-cover">
+                        <img src="/api/placeholder/200/280" alt="Book Cover">
+                    </div>
+                    <div class="book-info">
+                        <h3 class="book-title">Sapiens</h3>
+                        <p class="book-author">Yuval Noah Harari</p>
+                        <div class="book-meta">
+                            <span>Non-Fiction</span>
+                            <span>History</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Newsletter Section -->
+        <section class="newsletter">
+            <div class="newsletter-content">
+                <h3>Join Our Literary Community</h3>
+                <p>Subscribe to our newsletter for weekly book recommendations, author interviews, and literary insights.</p>
+                <form class="newsletter-form">
+                    <input type="email" placeholder="Your email address">
+                    <button type="submit">Subscribe</button>
+                </form>
+            </div>
+        </section>
+
+        <!-- Latest Releases Section -->
+        <section>
+            <div class="section-title">
+                <h2>Latest Releases</h2>
+                <a href="#">View All</a>
+            </div>
+            
+            <div class="books-grid">
+                <!-- Book Card 1 -->
+                <div class="book-card">
+                    <div class="book-cover">
+                        <img src="/api/placeholder/200/280" alt="Book Cover">
+                        <div class="new-badge">NEW</div>
+                    </div>
+                    <div class="book-info">
+                        <h3 class="book-title">The Midnight Library</h3>
+                        <p class="book-author">Matt Haig</p>
+                        <div class="book-meta">
+                            <span>Fiction</span>
+                            <span>Fantasy</span>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- Book Card 2 -->
+                <div class="book-card">
+                    <div class="book-cover">
+                        <img src="/api/placeholder/200/280" alt="Book Cover">
+                    </div>
+                    <div class="book-info">
+                        <h3 class="book-title">Klara and the Sun</h3>
+                        <p class="book-author">Kazuo Ishiguro</p>
+                        <div class="book-meta">
+                            <span>Fiction</span>
+                            <span>Sci-Fi</span>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- Book Card 3 -->
+                <div class="book-card">
+                    <div class="book-cover">
+                        <img src="/api/placeholder/200/280" alt="Book Cover">
+                        <div class="new-badge">NEW</div>
+                    </div>
+                    <div class="book-info">
+                        <h3 class="book-title">The Four Winds</h3>
+                        <p class="book-author">Kristin Hannah</p>
+                        <div class="book-meta">
+                            <span>Historical</span>
+                            <span>Fiction</span>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- Book Card 4 -->
+                <div class="book-card">
+                    <div class="book-cover">
+                        <img src="/api/placeholder/200/280" alt="Book Cover">
+                    </div>
+                    <div class="book-info">
+                        <h3 class="book-title">Think Again</h3>
+                        <p class="book-author">Adam Grant</p>
+                        <div class="book-meta">
+                            <span>Psychology</span>
+                            <span>Self-Help</span>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- Book Card 5
